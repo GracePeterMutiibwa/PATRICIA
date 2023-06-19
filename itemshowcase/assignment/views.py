@@ -11,4 +11,8 @@ def loadServicePage(request):
     return render(request, "assignment/services.html")
 
 def loadContactPage(request):
+    """
+    This is the contact page
+    """
+
     return render(request, "assignment/contact.html")
