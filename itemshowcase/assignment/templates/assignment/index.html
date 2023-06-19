@@ -1,0 +1,295 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>pash-tech-store</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'assignment/assets/img/favicon.png' %}" rel="icon">
+  <link href="{% static 'assignment/assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assignment/assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assignment/assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assignment/assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assignment/assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assignment/assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assignment/assets/vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'assignment/assets/css/main.css' %}" rel="stylesheet">
+
+  <!-- add special styling -->
+  <style>
+    #special-area{
+      background-image: url("{% static 'assignment/assets/img/why-us-bg.jpg' %}")
+    }
+  </style>
+
+</head>
+
+<body class="page-index">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="#" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="d-flex align-items-center">PASH TECHNOLOGY STORE</h1>
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="{% url 'homepage' %}" class="active">Home</a></li>
+          <li><a href="{% url 'aboutpage' %}">About</a></li>
+          <li><a href="{% url 'servicepage' %}">Services</a></li>      
+          <li><a href="{% url 'contactpage' %}">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4">
+          <h2 data-aos="fade-up">Main Focus On Devices And Gadgets</h2>
+          <blockquote data-aos="fade-up" data-aos-delay="100">
+            <p>Reach-out to the great technology devices and gadgets at <strong>PASH TECH STORE</strong> in your city. Stay updated with the current and latest device series and designs with their feature <strong>Here Tech Store For You</strong>  </p>
+          </blockquote>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="#about" class="btn-get-started">Get Started</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= Why Choose Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Why Choose Pash Store</h2>
+
+        </div>
+
+        <div class="row g-0" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-xl-5 img-bg" id="special-area"></div>
+          <div class="col-xl-7 slides  position-relative">
+
+            <div class="slides-1 swiper">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">For me and You</h3>
+                    <h4 class="mb-3">Find your best option to discover long-term device usage without fail.</h4>
+                    <p>We provide to you the best products and services at your comfort and with your comfort, all we provide is for customer satisfaction.</p>
+                  </div>
+                </div><!-- End slide item -->
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Need for Each other</h3>
+                    <h4 class="mb-3">Tech Store have all you Need for your Convenience</h4>
+                    <p>Provide a good scale of stock containing all what you may need in your home or even mobile with around you, Find out at our store in the city.</p>
+                  </div>
+                </div><!-- End slide item -->
+
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Why Choose Us Section -->
+    <br>
+    <br>
+
+
+    <!-- ======= Call To Action Section ======= -->
+    <section id="call-to-action" class="call-to-action">
+      <div class="container" data-aos="fade-up">
+
+
+               
+
+          
+          
+        </div>
+      </div>
+     </div>
+
+    </section><!-- End Call To Action Section -->
+
+
+    <!-- ======= Recent Activities  Posts Section ======= -->
+    <section id="recent-posts" class="recent-posts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Recent Activities</h2>
+
+        </div>
+
+        <div class="row gy-5">
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="post-box">
+              <div class="post-img"><img src="{% static 'assignment/assets/img/__I.jpg' %}" class="img-fluid" alt=""></div>
+                           
+              <p> NETWORKING </p>
+             
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="post-box">
+              <div class="post-img"><img src="{% static 'assignment/assets/img/product-1.jpg' %}" class="img-fluid" alt=""></div>
+              
+              <p> CUSTOMER PRODUCT DELIVERY.</p>
+          
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="post-box">
+              <div class="post-img"><img src="{% static 'assignment/assets/img/blog-6.jpg' %}" class="img-fluid" alt=""></div>
+              
+              <p> HOME WORK STATION SETUP </p>
+              
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="post-box">
+              <div class="post-img"><img src="{% static 'assignment/assets/img/product-2.jpg' %}" class="img-fluid" alt=""></div>
+                  
+              <p> STOCK PURCHASE </p>
+              
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Recent Blog Posts Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="#" class="logo d-flex align-items-center">
+              <span>PASH TECHNOLOGY STORE</span>
+            </a>
+            <p>Below are the our social media platforms you can follow us for our daily updates accordingly. check out like and comment.</p>
+            <div class="social-links d-flex  mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-dash"></i> <a href="#">Home</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">About us</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Services</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Other Services</h4>
+            <ul>
+              <li><i class="bi bi-dash"></i> <a href="#">Web Design</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Web Development</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Networking</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Marketing</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              502A High Street <br>
+              Uganda-Mbarara <br>
+              M-535-022 <br><br>
+              
+              <strong>Phone:</strong> +256 770806608<br>
+              <strong>Email:</strong> ampairepatricia@gmail.com<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Pash tech store</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a href="#">Patricia</a>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer --><!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assignment/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assignment/assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assignment/assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assignment/assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assignment/assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'assignment/assets/vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'assignment/assets/js/main.js' %}"></script>
+
+</body>
+
+</html>
